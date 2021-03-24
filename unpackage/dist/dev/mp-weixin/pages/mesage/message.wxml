@@ -1,0 +1,1 @@
+<view><button type="primary" data-event-opts="{{[['tap',[['uploadPLAY',['$event']]]]]}}" bindtap="__e">上传图片</button><block wx:for="{{ImgArr}}" wx:for-item="item" wx:for-index="__i0__"><image src="{{item}}" data-event-opts="{{[['tap',[['preview',['$0'],[[['ImgArr','',__i0__]]]]]]]}}" bindtap="__e"></image></block><view>我希望这个在微信中可以看见</view></view>
